@@ -55,10 +55,19 @@ This project is an image segmentation application that utilizes the SAM2 (Segmen
 
    Open a web browser and navigate to `http://127.0.0.1:5000/` to access the application.
 
-### Usage
+## Usage
 
-- **Upload an Image**: Use the file upload form on the main page to upload an image.
-- **View Results**: After uploading, the application will process the image and display the segmentation results, including individual masks and a combined mask.
+1. **Navigate to the Application**
+
+   Open your web browser and go to `http://127.0.0.1:5000/`.
+
+2. **Upload an Image**
+
+   Use the upload form to select and upload an image. Ensure the image is in one of the allowed formats: PNG, JPG, JPEG, or GIF and its uploaded to a image hosting site, and you are able to provide a link in the `app.py` for further processing.
+
+3. **View Results**
+
+   After uploading, the application will process the image using the SAM2 model and display the segmentation results, including combined and individual masks in your terminal to be specific.
 
 ### File Structure
 
