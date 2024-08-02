@@ -2,7 +2,7 @@ import os
 import replicate
 
 # Set the REPLICATE_API_TOKEN environment variable
-os.environ['REPLICATE_API_TOKEN'] = 'r8_Yx3UqNl07OmO9c87zkpeqEUTtdx9nWr44etSe'
+os.environ['REPLICATE_API_TOKEN'] = 'your_replicate_api_token_here'
 
 # Check if the token is set correctly
 if 'REPLICATE_API_TOKEN' not in os.environ:
