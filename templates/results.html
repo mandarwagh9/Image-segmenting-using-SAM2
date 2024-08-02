@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+</head>
+<body>
+    <h1>Results</h1>
+    <h2>Combined Mask</h2>
+    <img src="{{ output['combined_mask'] }}" alt="Combined Mask">
+    
+    <h2>Individual Masks</h2>
+    {% for mask in output['individual_masks'] %}
+        <img src="{{ mask }}" alt="Individual Mask">
+    {% endfor %}
+
+    <br><a href="/">Upload another image</a>
+</body>
+</html>
